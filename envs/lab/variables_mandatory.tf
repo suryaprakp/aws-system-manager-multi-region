@@ -1,13 +1,13 @@
-# Variables that are Sinch specific, and related to Sinch AWS tag
+# Variables that are Product specific, and related to Product AWS tag
 # policy.
 
 variable "environment" {
-  description = "Sinch deploy environment (e.g. 'lab' or 'prod')"
+  description = "Product deploy environment (e.g. 'lab' or 'prod')"
   type        = string
 }
 
 variable "product" {
-  description = "Sinch product (e.g. 'calling' or 'verification' or 'Infra')"
+  description = "product name(e.g. 'calling' or 'verification' or 'Infra')"
   type        = string
 }
 
